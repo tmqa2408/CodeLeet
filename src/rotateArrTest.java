@@ -4,6 +4,7 @@ public class rotateArrTest {
         int[] nums = {1,2,3,4,5,6};
 
         rotateArr(nums, k);
+
         for (int i = 0; i < nums.length; i++) {
         System.out.print(nums[i] + " , ");}
     }
